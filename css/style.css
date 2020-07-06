@@ -160,7 +160,7 @@ a.button.small:hover,a.button.small:focus {
 	position:relative;
 }
 .hero-image {
-    background: url(../images/hero-image.jpg) no-repeat;
+    background: url(../images/hero.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     opacity: .3;
@@ -208,10 +208,16 @@ a.button.small:hover,a.button.small:focus {
 	margin:0;
 	position:relative;
 }
-.team1,.team2,.team3,.team4,.team5,.team6{
+.team1,.team2,.team3{
 	background-size:cover!important;
 	background-position:50% 50%!important;
-	min-height:500px;
+	min-height:400px;
+	transition:1s
+}
+.team4{
+	background-size:cover!important;
+	background-position:10% 50%!important;
+	min-height:400px;
 	transition:1s
 }
 .team1{
@@ -222,6 +228,9 @@ a.button.small:hover,a.button.small:focus {
 }
 .team3{
 	background:url(../images/team-03.jpg) no-repeat
+}
+.team4{
+	background:url(../images/team-04.jpg) no-repeat
 }
 .team h2.center {
     color: #fff;
