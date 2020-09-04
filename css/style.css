@@ -71,7 +71,7 @@ li.main-nav-item{
 	display:inline-block;
 	text-align:center;
 	margin:0;
-	padding:40px 3%
+	padding:40px 2%
 }
 .main-nav-item a {
     color: #fff;
@@ -353,7 +353,6 @@ a.button.small:hover,a.button.small:focus {
 }
 .services-menu {
 		background: rgb(251,248,237);
-		background: linear-gradient(180deg, rgba(251,248,237,1) 0%, rgba(255,255,255,1) 100%);
 	  padding: 80px 20px;
 }
 .services-menu h4 {
@@ -362,6 +361,21 @@ a.button.small:hover,a.button.small:focus {
 }
 .services-menu .col {
     margin: 20px;
+}
+
+.intake-form {
+	background: #ffffff;
+	  padding: 80px 20px;
+}
+.intake-form h4 {
+	color:#286c91;
+	font-weight: 600;
+}
+.intake-form .col {
+    margin: 20px;
+}
+.intake-form .container {
+    width: 600px;
 }
 .book-now{
   text-align: center;
@@ -659,5 +673,8 @@ a.button.small {
 }
 	.button-primary{
 		display:none
+}
+.intake-form .container {
+    width: 100%;
 }
 }
