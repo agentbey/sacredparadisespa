@@ -4,10 +4,10 @@ body{
 	font-size:18px;
 	background:#286c91;
 	line-height:1.6;
-	font-weight:300
+	font-weight:400
 }
 p{
-	letter-spacing:.04em
+	letter-spacing:1px
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Cormorant Garamond', serif;
@@ -79,7 +79,7 @@ li.main-nav-item{
     letter-spacing: .1em;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     padding: 6px 0;
 }
 .main-nav-item a:active, .main-nav-item a:hover, .main-nav-item a:visited {
@@ -191,7 +191,7 @@ a.button.small:hover,a.button.small:focus {
 .mission h2 {
 	color: #006c94;
   font-family: 'Lato',sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.6em;
   letter-spacing: .02em;
 	margin-top: 40px;
