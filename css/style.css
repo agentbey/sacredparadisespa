@@ -662,6 +662,7 @@ a.button.small {
 .mission {
     padding: 60px 20px;
 }
+.ethics {text-align: left;}
 
 }
 @media screen and (max-width:1024px){
