@@ -662,8 +662,8 @@ a.button.small {
 .mission {
     padding: 60px 20px;
 }
-.ethics {text-align: left;}
-
+.ethics .col p {text-align: left;}
+.ethics {padding: 0 0 40px}
 }
 @media screen and (max-width:1024px){
 	.primary-nav{
