@@ -460,7 +460,8 @@ a.button.small:hover,a.button.small:focus {
     text-transform: uppercase;
 }
 .about p {
-    font-size: 1.1em;
+    font-size: 1.3em;
+		font-family: 'Cormorant Garamond', serif;
 }
 .round {
     border-radius: 50%;
