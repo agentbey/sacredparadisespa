@@ -470,10 +470,10 @@ a.button.small:hover,a.button.small:focus {
 .ethics .flex-grid .col {
     padding: 0 40px;
 }
-.ethics{
-	background: rgb(251,248,237);
-  background: linear-gradient(180deg, rgba(251,248,237,1) 0%, rgba(255,255,255,1) 100%);
-	padding: 100px 20px;
+.ethics {
+	padding:80px 40px;
+	position:relative;
+	background-color:#fff;
 }
 .ethics h2 {
 	color: #006c94;
