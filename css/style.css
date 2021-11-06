@@ -463,6 +463,31 @@ a.button.small:hover,a.button.small:focus {
     font-size: 1.3em;
 		font-family: 'Cormorant Garamond', serif;
 }
+.ethics p {
+    font-size: 1.3em;
+		font-family: 'Cormorant Garamond', serif;
+}
+.ethics .flex-grid .col {
+    padding: 0 40px;
+}
+.ethics{
+	background: rgb(251,248,237);
+  background: linear-gradient(180deg, rgba(251,248,237,1) 0%, rgba(255,255,255,1) 100%);
+	padding: 100px 20px;
+}
+.ethics h2 {
+	color: #006c94;
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  letter-spacing: .02em;
+	margin-top: 40px;
+  text-align: center;
+  line-height: 1.8em;
+	margin-bottom: 0;
+}
+
+
 .round {
     border-radius: 50%;
 }
