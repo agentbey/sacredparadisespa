@@ -575,7 +575,6 @@ a.button.small:hover,a.button.small:focus {
 }
 .scrollToTop{
 	background:#0000005c;
-	border-radius:50%;
 	cursor:pointer;
 	display:none;
 	position:fixed;
