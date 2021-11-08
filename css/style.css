@@ -402,11 +402,6 @@ a.button.small:hover,a.button.small:focus {
     letter-spacing: 0;
 		margin-bottom: 2rem;
 }
-.about {
-		background: rgb(251,248,237);
-		background: linear-gradient(180deg, rgba(251,248,237,1) 0%, rgba(255,255,255,1) 100%);
-	  padding: 80px 20px;
-}
 .about h4 {
 	color:#286c91;
 	font-weight: 600;
@@ -628,6 +623,7 @@ a.button.small:hover,a.button.small:focus {
 	.about-image{
 		background:0 0
 }
+.about {padding: 40px 0}
 .service-content {
     vertical-align: middle;
     margin: 0;
@@ -664,8 +660,8 @@ a.button.small {
     padding: 60px 20px;
 }
 .ethics .col p {text-align: left;}
-.ethics {padding: 0 0 40px}
-}
+.ethics {padding:40px 0}
+
 @media screen and (max-width:1024px){
 	.primary-nav{
 		display:none
