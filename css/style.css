@@ -578,13 +578,13 @@ a.button.small:hover,a.button.small:focus {
 	text-align:center
 }
 .scrollToTop a{
-	color:#fff;
-	text-decoration:none;
-	font-size:10px;
-	font-weight:600;
-	line-height:40px;
-	padding:0 10px
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.2em;
+	margin: 0.2em;
+	line-height: 0;
 }
+
 @media (max-width:1024px){
 	.col p{
 		text-align:center
