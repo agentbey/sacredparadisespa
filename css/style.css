@@ -583,7 +583,7 @@ a.button.small:hover,a.button.small:focus {
 	font-size: 2em;
 	margin: 0.1em;
 	line-height: 0;
-	position: fixed;
+	position: relative;
 	z-index: 999;
 }
 
