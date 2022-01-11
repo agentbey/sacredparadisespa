@@ -188,6 +188,9 @@ a.button.small:hover,a.button.small:focus {
     letter-spacing: 0;
     margin-bottom: 2rem;
 }
+.hero a.button, .book-now a.button {
+    margin: 0 40px;
+}
 .mission{
 	background: rgb(251,248,237);
   background: linear-gradient(180deg, rgba(251,248,237,1) 0%, rgba(255,255,255,1) 100%);
@@ -385,18 +388,11 @@ a.button.small:hover,a.button.small:focus {
 .book-now{
   text-align: center;
   padding: 80px 20px;
-  background: url(../images/massage-01.jpg) no-repeat;
-  background-size: cover;
-  background-position: 0 0;
-}
-.book-now-2{
-  text-align: center;
-  padding: 80px 20px;
   background: url(../images/massage-02.jpg) no-repeat;
   background-size: cover;
   background-position: 0 0;
 }
-.book-now h1,.book-now-2 h1 {
+.book-now h1 {
     color: #fff;
     font-size: 2.1em;
     letter-spacing: 0;
