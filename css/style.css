@@ -189,7 +189,7 @@ a.button.small:hover,a.button.small:focus {
     margin-bottom: 2rem;
 }
 .hero a.button, .book-now a.button {
-    margin: 0 40px;
+    margin: 0 40px 40px;
 }
 .mission{
 	background: rgb(251,248,237);
