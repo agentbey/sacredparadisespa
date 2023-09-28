@@ -226,7 +226,7 @@ a.button.small:focus {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    margin: 40px 0;
+    margin: 40px 20px;
 }
 
 .hero h1 {
@@ -873,8 +873,8 @@ a.button.small:focus {
             min-height: 480px;
         }
 
-        .hero h2 {
-            font-size: 1.2em
+        .hero h1 {
+            font-size: 3em
         }
 
         .button-primary {
