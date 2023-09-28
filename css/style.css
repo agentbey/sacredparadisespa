@@ -203,7 +203,7 @@ a.button.small:focus {
 .hero {
     color: #fff;
     text-align: center;
-    height: 540px;
+    height: 640px;
     position: relative;
 }
 
@@ -226,6 +226,7 @@ a.button.small:focus {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    margin: 40px 0;
 }
 
 .hero h1 {
@@ -852,12 +853,24 @@ a.button.small:focus {
             transition: all .3s;
             backface-visibility: hidden
         }
+
+        .hero a.button,
+        .book-now a.button {
+            margin: 0 0 40px;
+        }
+
+        .button,
+        button {
+            font-size: 14px;
+            line-height: 20px;
+            padding: 8px 30px;
+            letter-spacing: .08rem;
+        }
     }
 
     @media screen and (max-width:768px) {
         .hero {
             min-height: 480px;
-            padding: 20px;
         }
 
         .hero h2 {
