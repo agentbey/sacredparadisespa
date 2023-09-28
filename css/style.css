@@ -513,10 +513,6 @@ a.button.small:focus {
     padding: 0 40px;
 }
 
-.about p {
-    text-align: justify !important;
-}
-
 .contact {
     color: #fff;
     background: #286c91;
