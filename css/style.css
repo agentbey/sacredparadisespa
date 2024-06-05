@@ -274,7 +274,8 @@ a.button.small:focus {
 .team3,
 .team4,
 .team5,
-.team6 {
+.team6,
+.team7 {
     background-size: cover !important;
     background-position: 50% 50% !important;
     min-height: 400px;
@@ -303,6 +304,9 @@ a.button.small:focus {
 
 .team6 {
     background: url(../images/team-06.jpg) no-repeat
+}
+.team7 {
+    background: url(../images/team-07.jpg) no-repeat
 }
 
 .team h2.center {
