@@ -269,13 +269,7 @@ a.button.small:focus {
     position: relative;
 }
 
-.team1,
-.team2,
-.team3,
-.team4,
-.team5,
-.team6,
-.team7 {
+.team-photo {
     background-size: cover !important;
     background-position: 50% 50% !important;
     min-height: 400px;
@@ -307,6 +301,15 @@ a.button.small:focus {
 }
 .team7 {
     background: url(../images/team-07.jpg) no-repeat
+}
+.team8 {
+    background: url(../images/team-08.jpg) no-repeat
+}
+.team9 {
+    background: url(../images/team-09.jpg) no-repeat
+}
+.team10 {
+    background: url(../images/team-10.jpg) no-repeat
 }
 
 .team h2.center {
