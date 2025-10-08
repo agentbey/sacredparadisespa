@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     color: #555;
     font-family: 'Lato', sans-serif;
@@ -512,22 +516,33 @@ a.button.small:focus {
     padding: 0 40px;
 }
 
-.contact {
+.options {
     color:  #286c91;
     background: #fff;
     position: relative;
     padding: 80px 20px;
 }
-.contact h1 {
+.options h1 {
     font-weight: 600;
 }
-.contact h2 {
+.options h2 {
     font-size: 1.3em;
 }
-.contact li {
+.options li {
     display: list-item !important;
     margin-right: 20px;
     margin-bottom: 10px;
+}
+
+.contact {
+    color:  #fff;
+    background: #286c91;
+    position: relative;
+    padding: 80px 20px;
+}
+.contact h4 {
+    font-weight: 600;
+    font-size: 1.3em;
 }
 
 .col.no-padding {
@@ -707,22 +722,18 @@ a.button.small:focus {
 }
 
 .scrollToTop {
-    background: #0000005c;
+    background: #000000;
     cursor: pointer;
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 40px;
-    text-align: center
+    text-align: center;
+    padding: 20px;
+    margin:0;
 }
 
 .scrollToTop a {
     color: #fff;
     text-decoration: none;
-    font-size: 2em;
-    margin: 0.2em;
-    line-height: 0;
-    z-index: 999;
+    font-size: .9em;
+    font-stretch: 125%;
 }
 
 @media (max-width:1024px) {
