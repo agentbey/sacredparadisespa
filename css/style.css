@@ -476,21 +476,21 @@ a.button.small:focus {
     margin: 20px;
 }
 
-.intake-form {
+.waitlist-form {
     background: #ffffff;
     padding: 80px 20px;
 }
 
-.intake-form h4 {
+.waitlist-form-form h4 {
     color: #286c91;
     font-weight: 600;
 }
 
-.intake-form .col {
+.waitlist-form .col {
     margin: 20px;
 }
 
-.intake-form .container {
+.waitlist-form .container {
     width: 600px;
 }
 
@@ -889,3 +889,4 @@ a.button.small:focus {
             width: 100%;
         }
     }
+}
