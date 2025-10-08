@@ -47,12 +47,6 @@ h4 {
     margin-bottom: 1rem;
 }
 
-.contact li {
-    display: list-item !important;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
-
 .bottom {
     position: absolute;
     bottom: 0;
@@ -269,7 +263,6 @@ a.button.small:focus {
 }
 .team .col {
     background: #286C91;
-    background: linear-gradient(60deg, rgba(40, 108, 145, 1) 0%, rgba(32, 85, 115, .6) 100%);
 }
 .team-photo {
     background-size: cover !important;
@@ -277,27 +270,21 @@ a.button.small:focus {
     min-height: 400px;
     transition: 1s;
 }
-
 .team1 {
     background: url(../images/team-01.jpg) no-repeat
 }
-
 .team2 {
     background: url(../images/team-02.jpg) no-repeat
 }
-
 .team3 {
     background: url(../images/team-03.jpg) no-repeat
 }
-
 .team4 {
     background: url(../images/team-04.jpg) no-repeat
 }
-
 .team5 {
     background: url(../images/team-05.jpg) no-repeat
 }
-
 .team6 {
     background: url(../images/team-06.jpg) no-repeat
 }
@@ -327,8 +314,7 @@ a.button.small:focus {
     line-height: 1.4em;
 }
 .team-content {
-    margin: 1.2em;
-    min-height: 110px;
+    margin: 1.4em;
 }
 
 .services {
@@ -527,10 +513,21 @@ a.button.small:focus {
 }
 
 .contact {
-    color: #fff;
-    background: #286c91;
+    color:  #286c91;
+    background: #fff;
     position: relative;
     padding: 80px 20px;
+}
+.contact h1 {
+    font-weight: 600;
+}
+.contact h2 {
+    font-size: 1.3em;
+}
+.contact li {
+    display: list-item !important;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .col.no-padding {
@@ -608,7 +605,6 @@ a.button.small:focus {
     line-height: 1.8em;
     margin-bottom: 0;
 }
-
 
 .round {
     border-radius: 50%;
@@ -897,3 +893,4 @@ a.button.small:focus {
             width: 100%;
         }
     }
+}
