@@ -115,7 +115,7 @@ li.main-nav-item {
 }
 
 .secondary-nav {
-    display: none
+    display: none;
 }
 
 ul.slideout-nav {
@@ -137,13 +137,52 @@ li.slideout-nav-item {
     letter-spacing: .1em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 30px;
+    padding: px;
 }
 
 .slideout-nav-item a:hover {
     background: #d4874a;
     display: block;
 }
+
+/* 1. Hide the actual checkbox element */
+.menu-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* 2. Hide the menu by default (for mobile/slideout) */
+.slideout-nav {
+    display: none;
+}
+
+/* 3. THE TOGGLE: Show the menu when the checkbox IS checked */
+.menu-toggle:checked ~ .row #navbar .slideout-nav,
+.menu-toggle:checked ~ .row nav .slideout-nav {
+    display: block;
+}
+
+/* 4. Hamburger button animation setup */
+.toggle-button div {
+    transition: all 0.3s ease-in-out;
+}
+
+/* 5. Hamburger button animation when menu is open (checkbox is checked) */
+#menu-toggle:checked + .toggle-button .one {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#menu-toggle:checked + .toggle-button .two {
+    opacity: 0;
+}
+
+#menu-toggle:checked + .toggle-button .three {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+
+
 
 img {
     border-style: none;
@@ -858,7 +897,7 @@ a.button.small:focus {
         }
 
         .secondary-nav {
-            display: none;
+            display: block;
         }
 
         .secondary-nav .navbar {

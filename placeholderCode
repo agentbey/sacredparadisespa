@@ -1,0 +1,27 @@
+        <div class="secondary-nav">
+            <div class="row">
+                <a href="index.html" class="header-logo-2"><img src="images/sps-logo-white.png" alt="Sacred Paradise Spa
+          Logo" height="100" width="100%"></a>
+            </div>
+            <div class="row">
+                <div id="toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+            <div class="row">
+                <nav id="navbar" class="navbar">
+                    <ul class="slideout-nav" role="navigation">
+                        <li class="slideout-nav-item"><a href="index.html">HOME</a></li>
+                        <li class="slideout-nav-item"><a href="#about">ABOUT</a></li>
+                        <li class="slideout-nav-item"><a href="#ethics">ETHICS</a></li>
+                        <li class="slideout-nav-item"><a href="#wellness">WELLNESS TEAM</a></li>
+                        <li class="slideout-nav-item"><a href="#services-menu">MENU OF SERVICES</a></li>
+                        <li class="slideout-nav-item"><a href="#waitlist">WAITLIST</a></li>
+                        <li class="slideout-nav-item"><a href="#map">LOCATION</a></li>
+                        <li class="slideout-nav-item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
