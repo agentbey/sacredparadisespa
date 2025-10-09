@@ -314,7 +314,7 @@ a.button.small:focus {
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    font-size: 1.6em;
+    font-size: 1.4em;
     line-height: 1.4em;
     margin: 0;
 }
@@ -906,7 +906,7 @@ a.button.small:focus {
         }
         .team h2 {
             font-weight: 600;
-            font-size: 1.6em;
+            font-size: 1.4em;
         }
         .team h3 {
             font-weight: 400;
