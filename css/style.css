@@ -854,11 +854,11 @@ a.button.small:focus {
 
     @media screen and (max-width:1024px) {
         .primary-nav {
-            display: none
+            display: none;
         }
 
         .secondary-nav {
-            display: block
+            display: none;
         }
 
         .secondary-nav .navbar {
@@ -866,7 +866,7 @@ a.button.small:focus {
             z-index: 9999;
             position: absolute;
             background: #333;
-            width: 100%
+            width: 100%;
         }
 
         #toggle {
@@ -881,7 +881,7 @@ a.button.small:focus {
             background: #fff;
             margin: 4px auto;
             transition: all .3s;
-            backface-visibility: hidden
+            backface-visibility: hidden;
         }
 
         .hero a.button,
@@ -904,7 +904,7 @@ a.button.small:focus {
         }
 
         .hero h1 {
-            font-size: 3em
+            font-size: 3em;
         }
         .team h2 {
             font-weight: 600;
@@ -916,7 +916,7 @@ a.button.small:focus {
         }
 
         .button-primary {
-            display: none
+            display: none;
         }
 
         .waitlist .container {
