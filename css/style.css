@@ -892,10 +892,7 @@ a.button.small:focus {
             display: none;
         }
 
-        .secondary-nav {
-            display: block;
-        }
-
+        
         .hero a.button,
         .book-now a.button {
             margin: 0 0 40px;
@@ -914,7 +911,6 @@ a.button.small:focus {
         .hero {
             min-height: 480px;
         }
-
         .hero h1 {
             font-size: 3em;
         }
@@ -922,15 +918,16 @@ a.button.small:focus {
             font-weight: 600;
             font-size: 1.4em;
         }
+        .secondary-nav {
+            display: block;
+        }
         .team h3 {
             font-weight: 400;
             font-size: 1em;
         }
-
         .button-primary {
             display: none;
         }
-
         .waitlist .container {
             width: 100%;
         }
