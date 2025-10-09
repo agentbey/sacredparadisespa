@@ -904,6 +904,14 @@ a.button.small:focus {
         .hero h1 {
             font-size: 3em
         }
+        .team h2 {
+            font-weight: 600;
+            font-size: 1.6em;
+        }
+        .team h3 {
+            font-weight: 400;
+            font-size: 1em;
+        }
 
         .button-primary {
             display: none
