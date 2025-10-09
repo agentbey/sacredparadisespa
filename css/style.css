@@ -314,7 +314,7 @@ a.button.small:focus {
     color: #fff;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 1.36em;
     line-height: 1.4em;
     margin: 0;
 }
@@ -322,7 +322,7 @@ a.button.small:focus {
     color: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: .9em;
     line-height: 1.4em;
     letter-spacing: .02em;
 }
