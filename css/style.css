@@ -51,13 +51,6 @@ h4 {
     margin-bottom: 1rem;
 }
 
-.bottom {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -682,11 +675,6 @@ a.button.small:focus {
     text-align: center
 }
 
-.bottom {
-    position: absolute;
-    bottom: 0
-}
-
 .vh-align-center {
     display: -webkit-box;
     display: -webkit--grid;
@@ -771,14 +759,14 @@ a.button.small:focus {
     background: #000000;
     cursor: pointer;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin:0;
 }
 
 .scrollToTop a {
     color: #fff;
     text-decoration: none;
-    font-size: .8em;
+    font-size: .6em;
 }
 
 @media (max-width:1024px) {
@@ -846,10 +834,6 @@ a.button.small:focus {
         padding: 40px;
     }
 
-    .header-logo img {
-        display: block;
-    }
-
     .services-menu h4 {
         text-align: center;
     }
@@ -861,7 +845,7 @@ a.button.small:focus {
 
     .contact .col:nth-child(2) {
         margin: 80px 0;
-    }
+        }
 
     .banner .header-logo img {
         display: none;
@@ -893,6 +877,7 @@ a.button.small:focus {
         .hero a.button,
         .book-now a.button {
             margin: 0 0 40px;
+            width: 100%;
         }
         .button,
         button {
@@ -912,17 +897,11 @@ a.button.small:focus {
         }
         .team h2 {
             font-weight: 600;
-            font-size: 1.4em;
-        }
-        .secondary-nav {
-            display: block;
+            font-size: 1.3em;
         }
         .team h3 {
             font-weight: 400;
             font-size: 1em;
-        }
-        .button-primary {
-            display: none;
         }
         .waitlist .container {
             width: 100%;
