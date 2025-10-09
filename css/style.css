@@ -847,13 +847,6 @@ a.button.small:focus {
     }
 
     .header-logo img {
-        display: none;
-    }
-
-    .header-logo-2 img {
-        padding: 30px 0;
-        width: 80%;
-        margin: 0 auto;
         display: block;
     }
 
@@ -888,16 +881,19 @@ a.button.small:focus {
 }
 
     @media screen and (max-width:1024px) {
+        .header-logo img {
+            padding: 30px 0;
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
         .primary-nav {
             display: none;
         }
-
-        
         .hero a.button,
         .book-now a.button {
             margin: 0 0 40px;
         }
-
         .button,
         button {
             font-size: 14px;
