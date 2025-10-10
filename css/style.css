@@ -721,8 +721,7 @@ a.button.small:focus {
 .scrollToTop {
     cursor: pointer;
     text-align: center;
-    padding: 20px;
-
+    padding-bottom: 40px;
 }
 
 .scrollToTop a {
