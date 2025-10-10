@@ -723,8 +723,6 @@ a.button.small:focus {
     text-align: center;
     padding: 20px;
     margin:0;
-    width: 100%;
-    display: block;
 }
 
 .scrollToTop a {
@@ -732,13 +730,6 @@ a.button.small:focus {
     text-decoration: none;
     font-size: .6em;
     font-weight: 600;
-}
-
-.scroll {
-    background-color: #333;
-    display: block;
-    margin: 0;
-    width: 100%;
 }
 
 @media (max-width:1024px) {
