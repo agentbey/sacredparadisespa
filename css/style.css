@@ -684,11 +684,11 @@ a.button.small:focus {
 }
 
 .flex-grid {
-    display: flex
+    display: flex;
 }
 
 .flex-grid .col {
-    flex: 1
+    flex: 1;
 }
 
 .flex-grid-half {
@@ -701,17 +701,17 @@ a.button.small:focus {
 
 .flex-grid-half .col {
     width: 50%;
-    padding: 60px 30px
+    padding: 60px 30px;
 }
 
 .flex-grid-thirds {
     display: flex;
     justify-content: space-between;
-    margin: 20px
+    margin: 20px;
 }
 
 .flex-grid-thirds .col {
-    width: 32%
+    width: 32%;
 }
 
 .copyright {
@@ -722,7 +722,7 @@ a.button.small:focus {
     cursor: pointer;
     text-align: center;
     padding: 20px;
-    margin:0;
+
 }
 
 .scrollToTop a {
@@ -805,10 +805,6 @@ a.button.small:focus {
         display: block;
         margin-bottom: 80px;
     }
-
-    .contact .col:nth-child(2) {
-        margin: 80px 0;
-        }
 
     .mission {
         padding: 60px 20px;
@@ -907,5 +903,8 @@ a.button.small:focus {
         }
         #menu-toggle:checked ~ .toggle-button .three {
             transform: translateY(-8px) rotate(-45deg);
+        }
+        .contact .col {
+            padding-top: 40px;
         }
     }
