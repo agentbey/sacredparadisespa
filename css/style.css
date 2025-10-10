@@ -723,6 +723,8 @@ a.button.small:focus {
     text-align: center;
     padding: 20px;
     margin:0;
+    width: 100%;
+    display: block;
 }
 
 .scrollToTop a {
