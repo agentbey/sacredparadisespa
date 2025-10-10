@@ -732,6 +732,10 @@ a.button.small:focus {
     font-weight: 600;
 }
 
+.scroll {
+    background-color: #333;
+}
+
 @media (max-width:1024px) {
     .col p {
         text-align: center
