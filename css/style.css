@@ -734,6 +734,9 @@ a.button.small:focus {
 
 .scroll {
     background-color: #333;
+    display: block;
+    margin: 0;
+    width: 100%;
 }
 
 @media (max-width:1024px) {
