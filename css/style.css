@@ -719,7 +719,6 @@ a.button.small:focus {
 }
 
 .scrollToTop {
-    background: #000000;
     cursor: pointer;
     text-align: center;
     padding: 20px;
@@ -730,6 +729,7 @@ a.button.small:focus {
     color: #fff;
     text-decoration: none;
     font-size: .6em;
+    font-weight: 600;
 }
 
 @media (max-width:1024px) {
@@ -899,19 +899,6 @@ a.button.small:focus {
             pointer-events: none;
         }
 
-
-    .slideout-nav {
-        flex-direction: column; /* Vertical on mobile */
-        text-align: center;
-        background-color: #333333c7;
-        border: none;
-        
-        /* The key to hiding/showing: set max-height to 0 */
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease-in-out;
-    }
-    
         #menu-toggle:checked ~ .toggle-button .one {
             transform: translateY(8px) rotate(45deg);
         }

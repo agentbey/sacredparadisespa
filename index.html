@@ -675,5 +675,22 @@
             )
             wow.init();
         </script>
+        <script>
+            // Get all menu links within the navbar
+                const menuLinks = document.querySelectorAll('.navbar a');
+
+            // Get the menu toggle checkbox
+                const menuToggle = document.getElementById('menu-toggle');
+
+            // Add an event listener to each link
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+            // Uncheck the hidden checkbox to hide the menu
+                if (menuToggle) {
+                    menuToggle.checked = false;
+                }
+                });
+            });
+        </script>
       </body>
     </html>
