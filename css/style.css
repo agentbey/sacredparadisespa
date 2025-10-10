@@ -1,18 +1,22 @@
+:root {
+  --btn-hover-color: #ed632d;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-    color: #555;
+    color: #333;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     background: #286c91;
     line-height: 1.6;
-    font-weight: 400
+    font-weight: 400;
 }
 
 p {
-    letter-spacing: .02em;
+    letter-spacing: .01em;
 }
 
 h1,
@@ -75,21 +79,18 @@ img.center {
 
 .main-nav {
     margin: 0;
-    text-align: center
+    text-align: center;
 }
-
 ul.main-nav {
     list-style: none;
-    padding: 0
+    padding: 0;
 }
-
 li.main-nav-item {
     display: inline-block;
     text-align: center;
     margin: 0;
-    padding: 40px 2%;
+    padding: 40px 2%;   
 }
-
 .main-nav-item a {
     color: #fff;
     font-size: 1em;
@@ -100,81 +101,43 @@ li.main-nav-item {
     padding: 6px 0;
 }
 
-.main-nav-item a:active,
-.main-nav-item a:hover,
-.main-nav-item a:visited {
-    border-bottom: 1px solid #ffffff;
-    transition: .1s;
-}
 
-.secondary-nav {
+.mobile-menu {
     display: none;
 }
 
-ul.slideout-nav {
+ul.mobile-menu-list {
     list-style: none;
-    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#111;
+}
+ul.mobile-menu-list li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0; 
     padding: 0;
 }
-
-li.slideout-nav-item {
-    margin: 0;
+ul.mobile-menu-list a {
     display: block;
-    text-align: center;
-}
-
-.slideout-nav-item a {
     color: #fff;
-    display: block;
-    font-size: 17px;
+    font-size: .9em;
     letter-spacing: .1em;
     text-decoration: none;
     text-transform: uppercase;
-    padding: px;
+    font-weight: 400;
+    padding: 15px;
 }
-
-.slideout-nav-item a:hover {
-    background: #d4874a;
-    display: block;
+ul.mobile-menu-list li:active,
+ul.mobile-menu-list li:hover,
+ul.mobile-menu-list li:visited {
+    background-color: var(--btn-hover-color);
+    transition: .1s;
 }
-
-/* 1. Hide the actual checkbox element */
-.menu-toggle {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-}
-
-/* 2. Hide the menu by default (for mobile/slideout) */
-.slideout-nav {
-    display: none;
-}
-
-/* 3. THE TOGGLE: Show the menu when the checkbox IS checked */
-.menu-toggle:checked ~ .row #navbar .slideout-nav,
-.menu-toggle:checked ~ .row nav .slideout-nav {
-    display: block;
-}
-
-/* 4. Hamburger button animation setup */
-.toggle-button div {
-    transition: all 0.3s ease-in-out;
-}
-
-/* 5. Hamburger button animation when menu is open (checkbox is checked) */
-#menu-toggle:checked + .toggle-button .one {
-    transform: rotate(45deg) translate(5px, 5px);
-}
-
-#menu-toggle:checked + .toggle-button .two {
-    opacity: 0;
-}
-
-#menu-toggle:checked + .toggle-button .three {
-    transform: rotate(-45deg) translate(5px, -5px);
-}
-
-
 
 
 img {
@@ -847,10 +810,6 @@ a.button.small:focus {
         margin: 80px 0;
         }
 
-    .banner .header-logo img {
-        display: none;
-    }
-
     .mission {
         padding: 60px 20px;
     }
@@ -866,9 +825,9 @@ a.button.small:focus {
 
     @media screen and (max-width:1024px) {
         .header-logo img {
-            padding: 30px 0;
-            width: 80%;
-            margin: 0 auto;
+            padding-top: 30px;
+            width: 320px;
+            margin:  auto;
             display: block;
         }
         .primary-nav {
@@ -876,7 +835,7 @@ a.button.small:focus {
         }
         .hero a.button,
         .book-now a.button {
-            margin: 0 0 40px;
+            margin: 0 0 30px;
             width: 100%;
         }
         .button,
@@ -890,7 +849,7 @@ a.button.small:focus {
 
     @media screen and (max-width:768px) {
         .hero {
-            min-height: 480px;
+            min-height: 360px;
         }
         .hero h1 {
             font-size: 3em;
@@ -905,5 +864,61 @@ a.button.small:focus {
         }
         .waitlist .container {
             width: 100%;
+        }
+        .mobile-menu {
+            display: block;
+        }
+        .navbar {
+            display: none;
+        }
+        #menu-toggle:checked + .toggle-button + .navbar {
+            display: block;
+        }
+        
+        .toggle-button {
+            display: block;
+            cursor: pointer;
+            padding: 10px 15px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 10;
+            width: 30px;
+            height: 30px;
+        }
+        .toggle-button div {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+            transition: all 0.3s ease-in-out;
+        }
+        .menu-toggle {
+            position: absolute;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+
+    .slideout-nav {
+        flex-direction: column; /* Vertical on mobile */
+        text-align: center;
+        background-color: #333333c7;
+        border: none;
+        
+        /* The key to hiding/showing: set max-height to 0 */
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out;
+    }
+    
+        #menu-toggle:checked ~ .toggle-button .one {
+            transform: translateY(8px) rotate(45deg);
+        }
+        #menu-toggle:checked ~ .toggle-button .two {
+            opacity: 0;
+        }
+        #menu-toggle:checked ~ .toggle-button .three {
+            transform: translateY(-8px) rotate(-45deg);
         }
     }
