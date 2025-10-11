@@ -824,7 +824,7 @@ a.button.small:focus {
     @media screen and (max-width:1024px) {
         .header-logo img {
             padding-top: 30px;
-            width: 280px;
+            width: 300px;
             margin:  auto;
             display: block;
         }
@@ -850,7 +850,7 @@ a.button.small:focus {
             height: 480px;
         }
         .hero h1 {
-            font-size: 2.9em;
+            font-size: 2.8em;
         }
         .team h2 {
             font-weight: 600;
