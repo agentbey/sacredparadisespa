@@ -1,5 +1,22 @@
 :root {
-  --btn-hover-color: #ed632d;
+/* Colors*/
+    --btn-hover-color: #ed632d;
+    --base-color-teal: #006c94;
+    --base-color-dark-teal: #286c91;
+    --base-color-white: #ffffff;
+    --base-color-text: #000000;
+    --base-color-cream: #fbf8ed;
+    
+/* Font Families */
+    --font-primary:'Cormorant Garamond', serif;
+    --font-secondary:'Lato', sans-serif;
+    
+/*  Font Sizes */
+
+    
+/*  Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
 }
 
 html {
@@ -7,7 +24,7 @@ html {
 }
 
 body {
-    color: #111;
+    color: #000;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     background: #286c91;
@@ -16,20 +33,18 @@ body {
 }
 
 p {
-    letter-spacing: .01em;
+    letter-spacing: .02em;
 }
 
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 2rem;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.01em;
 }
 
 h1 {
@@ -39,14 +54,17 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4em;
-    line-height: 1.6;
-    margin-bottom: 4rem;
+    font-size: 1.8em;
+    color: var(--base-color-teal);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: center;
 }
 
 h3 {
     font-size: 1.3em;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 h4 {
@@ -138,7 +156,6 @@ ul.mobile-menu-list li:visited {
     background-color: var(--btn-hover-color);
     transition: .1s;
 }
-
 
 img {
     border-style: none;
@@ -314,6 +331,7 @@ a.button.small:focus {
     font-size: 1.36em;
     line-height: 1.4em;
     margin: 0;
+    text-align: left;
 }
 .team h3 {
     color: #fff;
@@ -408,7 +426,7 @@ a.button.small:focus {
 
 .services-2 .flex-grid-thirds .col {
     width: 32%;
-    margin: 0 40px
+    margin: 0 40px;
 }
 
 .services1 {
@@ -483,11 +501,6 @@ a.button.small:focus {
 .waitlist {
     background: #ffffff;
     padding: 80px 20px;
-}
-
-.waitlist h4 {
-    color: #286c91;
-    font-weight: 600;
 }
 
 .waitlist .col {
@@ -615,18 +628,6 @@ a.button.small:focus {
     background-color: #fff;
 }
 
-.ethics h2 {
-    color: #006c94;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 1.6em;
-    letter-spacing: .02em;
-    margin-top: 40px;
-    text-align: center;
-    line-height: 1.8em;
-    margin-bottom: 0;
-}
-
 .round {
     border-radius: 50%;
 }
@@ -741,7 +742,7 @@ a.button.small:focus {
     }
 
     .headline {
-        font-size: 52px
+        font-size: 48px;
     }
 
     .mission h1 {
@@ -811,6 +812,7 @@ a.button.small:focus {
 
     .ethics .col p {
         text-align: left;
+        line-height: 1.4em;
     }
 
     .ethics {
