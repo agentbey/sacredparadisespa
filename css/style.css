@@ -241,7 +241,7 @@ a.button.small:focus {
 
 .hero h1 {
     font-size: 3.4em;
-    letter-spacing: 0;
+    letter-spacing: -.02em;
     margin-bottom: 2rem;
 }
 
@@ -823,7 +823,7 @@ a.button.small:focus {
     @media screen and (max-width:1024px) {
         .header-logo img {
             padding-top: 30px;
-            width: 320px;
+            width: 280px;
             margin:  auto;
             display: block;
         }
@@ -846,10 +846,10 @@ a.button.small:focus {
 
     @media screen and (max-width:768px) {
         .hero {
-            height: 100vh;
+            height: 480px;
         }
         .hero h1 {
-            font-size: 3em;
+            font-size: 2.9em;
         }
         .team h2 {
             font-weight: 600;
