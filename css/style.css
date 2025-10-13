@@ -247,7 +247,7 @@ a.button.small:focus {
     font-size: 60px;
     font-weight: var(--font-weight-normal);
     letter-spacing: -1px;
-    margin-bottom: 72px;
+    margin-bottom: 60px;
     text-transform: none;
 }
 
@@ -667,10 +667,10 @@ a.button.small:focus {
 
     @media screen and (max-width:768px) {
         .hero {
-            height: 480px;
+            height: 540px;
         }
         .hero h1 {
-            font-size: 40px;
+            font-size: 48px;
         }
         .mission h3 {
             font-size: var(--medium);
