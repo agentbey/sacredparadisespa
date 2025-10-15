@@ -47,7 +47,7 @@ p {
     font-size: var(--small);
     line-height: var(--lh-small);
     font-weight: var(--font-weight-normal);
-    margin-bottom: var(--small);
+    margin-bottom: var(--medium);
 }
 
 h1,
