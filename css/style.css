@@ -130,7 +130,6 @@ li.main-nav-item {
     padding: 6px 0;
 }
 
-
 .mobile-menu {
     display: none;
 }
@@ -635,7 +634,7 @@ button:hover {
             height: 540px;
         }
         .hero h1 {
-            font-size: 48px;
+            font-size: 42px;
         }
         .mission h3 {
             font-size: var(--medium);
