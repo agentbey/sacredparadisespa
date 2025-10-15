@@ -44,7 +44,7 @@ body {
 
 p {
     font-family: var(--font-primary);
-    font-size: var(--small);
+    font-size: var(--xsmall);
     line-height: var(--lh-small);
     font-weight: var(--font-weight-normal);
     margin-bottom: var(--medium);
