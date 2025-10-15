@@ -58,13 +58,13 @@ h4 {
     font-weight: var(--font-weight-bold);
     margin-top: 0;
     margin-bottom: 32px;
-    letter-spacing: 0.05px;
     text-transform: uppercase;
 }
 
 h1 {
     font-size: var(--xlarge);
     margin-bottom: 64px;
+    letter-spacing: -.5px;
 }
 
 h2 {
@@ -392,12 +392,13 @@ button:hover {
 .options h1 {
     text-transform: initial;
 }
+
 .options li {
     display: list-item !important;
     margin-right: 20px;
     margin-bottom: 10px;
     font-family: var(--font-primary);
-    font-size: var(--small);
+    font-size: var(--xsmall);
     font-weight: var(--font-weight-normal);
 }
 
@@ -624,7 +625,6 @@ button:hover {
         .button,
         button {
             font-size: 14px;
-            
             padding: 8px 30px;
         }
     }
@@ -653,8 +653,15 @@ button:hover {
             padding-top: 20px;
             padding-bottom: 20px;
         }
+        .options h1 {
+            margin-bottom: 24px;
+        }
+        .options p {
+            margin-bottom: 12px;
+        }
         .options li {
             list-style-type: none;
+            margin-right: 0;
         }
         .waitlist .container {
             width: 100%;
