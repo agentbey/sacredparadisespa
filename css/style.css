@@ -122,8 +122,8 @@ li.main-nav-item {
 }
 .main-nav-item a {
     color: var(--base-color-white);
-    font-size: var(--small);
-    letter-spacing: 2px;
+    font-size: var(--xsmall);
+    letter-spacing: 1.5px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: var(--font-weight-normal);
@@ -449,6 +449,42 @@ button:hover {
 .ethics .flex-grid .col {
     padding: 0 40px;
 }
+.fsa {
+    background-color: var(--base-color-cream);
+    padding: 80px 20px;
+}
+.fsa h4 {
+    color: var(--base-color-dark-teal);
+    font-weight: var(--font-weight-bold);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.fsa .flex-grid .col.wow {
+    padding: 0 40px;
+}
+
+.flex-grid .col:last-of-type h4:last-of-type {
+    margin-bottom: 0;
+}
+
+.fsa ul {
+    margin-left: 30px;
+}
+.fsa li {
+    display: list-item !important;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-family: var(--font-primary);
+    line-height: var(--lh-small);
+    font-size: var(--xsmall);
+    font-weight: var(--font-weight-normal);
+}
+.fsa img {
+    border-radius: 10px;
+}
+.fsa .col {
+    margin: 15px;
+}
 
 .contact {
     color: var(--base-color-white);
@@ -673,6 +709,9 @@ button:hover {
             padding-bottom: 20px;
         }
         .about p {
+            text-align: left;
+        }
+        .fsa p {
             text-align: left;
         }
         .about .flex-grid .col, .ethics .flex-grid .col {
