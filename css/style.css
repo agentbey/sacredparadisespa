@@ -315,6 +315,15 @@ button:hover {
 .team9 {
     background: url(../images/team-09.jpg) no-repeat
 }
+.team10 {
+    background: url(../images/team-10.jpg) no-repeat
+}
+.team11 {
+    background: url(../images/team-11.jpg) no-repeat
+}
+.team12 {
+    background: url(../images/team-12.jpg) no-repeat
+}
 
 .team h3 {
     color: var(--base-color-white);
